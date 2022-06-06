@@ -4,7 +4,7 @@
   "main": "sorting-1.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon dist/sorting-1.js"
+    "dev": "nodemon dist/selection-sorting.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.16",

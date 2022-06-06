@@ -1,4 +1,4 @@
-const arrLength: number = 13;
+const arrLength: number = 123;
 const arrOfNumbersToSort: number[] = [];
 const isSmallToLarg: boolean = false;
 const isLargToSmall: boolean = false;
