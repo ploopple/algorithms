@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "main": "sorting-1.js",
   "license": "MIT",
-  "scripts": {
-    "dev": "nodemon dist/selection-sorting.js"
-  },
   "devDependencies": {
     "nodemon": "^2.0.16",
     "tsc": "^2.0.4",
