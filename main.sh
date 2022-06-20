@@ -14,7 +14,6 @@ else
    git commit -m "$COMMIT_MESSAGE"
    git push origin $BRANCH_NAME
    git checkout master 
-   git pull origin master
 
    echo $BRANCH_NAME $COMMIT_MESSAGE
 fi
