@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function showCustomers(customers, targetList) {
+        // Your code goes here
+
+        for (let i = 0; i < customers.length; i++) {
+          const li = document.createElement("li");
+          const p = document.createElement("p");
+          p.innerHTML = customers[i].name;
+          li.appendChild(p);
+          targetList.appendChild(li);
+        }
+        const pTag = document.getElementsByTagName("p");
+        const liTag = document.getElementsByTagName("li");
+
+        pTag[0].addEventListener("mousedown", () => {
+          const pe = document.createElement("p");
+          if (liTag[0].innerHTML !== "<p>John</p>") {
+            liTag[0].removeChild(liTag[0].getElementsByTagName("p")[1]);
+          } else {
+            pe.innerHTML = customers[0].email;
+            liTag[0].appendChild(pe);
+          }
+        });
+        pTag[1].addEventListener("mousedown", () => {
+          const pe = document.createElement("p");
+          if (liTag[1].innerHTML !== "<p>Mary</p>") {
+            liTag[1].removeChild(liTag[1].getElementsByTagName("p")[1]);
+          } else {
+            pe.innerHTML = customers[1].email;
+            liTag[1].appendChild(pe);
+          }
+        });
+      }
+
+      document.body.innerHTML = `
+          <div>
+            <ul id="customers">
+            </ul>
+          </div>
+          `;
+      let customers = [
+        { name: "John", email: "john@example.com" },
+        { name: "Mary", email: "mary@example.com" },
+      ];
+      showCustomers(customers, document.getElementById("customers"));
+
+      let customerParagraph = document.querySelectorAll("li > p")[0];
+      if (customerParagraph) {
+        customerParagraph.click();
+      }
+      console.log(document.body.innerHTML);
+    </script>
+  </body>
+</html>
