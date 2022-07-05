@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch IsPalindrome",
+      "request": "launch",
+      "mainClass": "IsPalindrome",
+      "projectName": "algorithms_37d49290"
+    },
+    {
+      "name": ".NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/code-challenges/cs/bin/Debug/net6.0/cs.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/code-challenges/cs",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach"
+    }
+  ]
+}

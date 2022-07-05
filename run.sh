@@ -1,0 +1,2 @@
+clear
+cd "/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cpp/" && g++ romanToInt.cpp -o romanToInt && "/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cpp/"romanToInt
