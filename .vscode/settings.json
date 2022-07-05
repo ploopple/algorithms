@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "vector": "cpp",
+    "iosfwd": "cpp",
+    "__split_buffer": "cpp",
+    "deque": "cpp",
+    "string": "cpp",
+    "ostream": "cpp",
+    "queue": "cpp",
+    "random": "cpp"
+  }
+}

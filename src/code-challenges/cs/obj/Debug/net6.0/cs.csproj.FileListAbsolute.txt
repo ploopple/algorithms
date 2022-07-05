@@ -1,0 +1,15 @@
+/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cs/bin/Debug/net6.0/cs
+/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cs/bin/Debug/net6.0/cs.deps.json
+/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cs/bin/Debug/net6.0/cs.runtimeconfig.json
+/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cs/bin/Debug/net6.0/cs.dll
+/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cs/bin/Debug/net6.0/cs.pdb
+/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cs/obj/Debug/net6.0/cs.csproj.AssemblyReference.cache
+/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cs/obj/Debug/net6.0/cs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cs/obj/Debug/net6.0/cs.AssemblyInfoInputs.cache
+/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cs/obj/Debug/net6.0/cs.AssemblyInfo.cs
+/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cs/obj/Debug/net6.0/cs.csproj.CoreCompileInputs.cache
+/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cs/obj/Debug/net6.0/cs.dll
+/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cs/obj/Debug/net6.0/refint/cs.dll
+/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cs/obj/Debug/net6.0/cs.pdb
+/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cs/obj/Debug/net6.0/cs.genruntimeconfig.cache
+/Users/mohammedalasam/Desktop/projects/algorithms/src/code-challenges/cs/obj/Debug/net6.0/ref/cs.dll
